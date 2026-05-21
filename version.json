@@ -1,5 +1,5 @@
 {
-  "version": "0.26",
+  "version": "0.27",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "v0.26 beta — honest quality-tiered completion popup, results color legend + sort, cleaner grid layout, tooltips toggle, multi-window verification."
+  "releaseNotes": "Update banner now responsive at any panel width; Download button fixed (was unwired when triggered from Settings) with real progress bar; custom hover tooltips; horizontal scroll in results; reset-to-defaults button; voice note recording in feedback"
 }
