@@ -1,5 +1,5 @@
 {
-  "version": "0.27",
+  "version": "0.28",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "Update banner now responsive at any panel width; Download button fixed (was unwired when triggered from Settings) with real progress bar; custom hover tooltips; horizontal scroll in results; reset-to-defaults button; voice note recording in feedback"
+  "releaseNotes": "Removed hover tooltip system entirely — was annoying UX"
 }
