@@ -1,5 +1,5 @@
 {
-  "version": "0.25",
-  "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/releases/download/v0.25/SyncMaster-v0.25.0.zxp",
-  "releaseNotes": "v0.25 beta — multi-window Pearson verification, license sub-menu, detailed completion popup, results sort + filter, manual update check, hold up let me cook"
+  "version": "0.26",
+  "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
+  "releaseNotes": "v0.26 beta — honest quality-tiered completion popup, results color legend + sort, cleaner grid layout, tooltips toggle, multi-window verification."
 }
