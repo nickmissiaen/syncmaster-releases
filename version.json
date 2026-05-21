@@ -1,5 +1,5 @@
 {
-  "version": "0.28",
+  "version": "0.29",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "Removed hover tooltip system entirely — was annoying UX"
+  "releaseNotes": "Update banner moved into Settings (below Check-for-updates), plus a post-download install guide popup."
 }
