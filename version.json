@@ -1,5 +1,5 @@
 {
-  "version": "0.29",
+  "version": "0.30",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "Update banner moved into Settings (below Check-for-updates), plus a post-download install guide popup."
+  "releaseNotes": "ffmpeg now ships inside the plugin — no more setup. Sync works the moment you install, no Homebrew or terminal needed."
 }
