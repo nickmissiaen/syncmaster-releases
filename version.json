@@ -1,5 +1,5 @@
 {
-  "version": "0.30",
+  "version": "0.31",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "ffmpeg now ships inside the plugin — no more setup. Sync works the moment you install, no Homebrew or terminal needed."
+  "releaseNotes": "Proxy workflow support — sync now works when you only have proxies (missing originals). New Settings toggle 'Use proxy files for syncing', plus automatic fallback to proxies when originals are offline. Mixed projects (some originals, some proxy-only) work too."
 }
