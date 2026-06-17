@@ -1,5 +1,5 @@
 {
-  "version": "0.32",
+  "version": "0.33",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "Fixes the 'addTrack is not a function' crash on big multi-track timelines. Proxy toggle now sits right under the Sync button. Cancel is now a hard cancel — stops instantly so you can retry right away. A blue Update badge appears in the header when a new version is out. Simplified extras: removed music, humor is now a single on/off toggle."
+  "releaseNotes": "Smarter matching: weak matches are auto-retried (incl. cross-camera) before the sync finishes, and anything still weak/unmatched is parked at the end in chronological order instead of being placed wrong. Silent clips (no audio) are skipped. Exact-duplicate clips (same content, different filename) sync once; copies parked. Live estimated time remaining during sync. New setting 'Keep computer awake while syncing' (on by default). Proxy toggle moved back to Settings."
 }
