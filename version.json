@@ -1,5 +1,5 @@
 {
-  "version": "0.35",
+  "version": "0.36",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "New 'Matching sensitivity' setting (Normal / High / Max) — turn it up to dig matches out of noisy, music-heavy, quiet or very short clips. Normal stays exactly as the proven stable matching; High/Max lower the thresholds and trust the noise-robust fingerprint method. Short clips now need proportionally fewer fingerprint votes by default."
+  "releaseNotes": "Audio-only sources can now be synced (select audio OR video clips — a source is a source); audio sources land on their own audio tracks. Panel now auto-checks for updates every time it opens. Matching sensitivity High/Max now adds a second onset-based (spectral-flux) detection method to dig matches out of music/noise-heavy audio (Normal unchanged). Voice-note mic: added CEF media flags + clearer macOS permission guidance. 'by Nick M' credit moved to the bottom of Settings."
 }
