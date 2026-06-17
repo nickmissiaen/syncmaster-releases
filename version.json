@@ -1,5 +1,5 @@
 {
-  "version": "0.31",
+  "version": "0.32",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "Proxy workflow support — sync now works when you only have proxies (missing originals). New Settings toggle 'Use proxy files for syncing', plus automatic fallback to proxies when originals are offline. Mixed projects (some originals, some proxy-only) work too."
+  "releaseNotes": "Fixes the 'addTrack is not a function' crash on big multi-track timelines. Proxy toggle now sits right under the Sync button. Cancel is now a hard cancel — stops instantly so you can retry right away. A blue Update badge appears in the header when a new version is out. Simplified extras: removed music, humor is now a single on/off toggle."
 }
