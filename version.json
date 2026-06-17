@@ -1,5 +1,5 @@
 {
-  "version": "0.34",
+  "version": "0.35",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "Reverted the v0.33 weak-match retry + parking changes that made syncing slower and less reliable — matching is back to the proven stable behaviour. Strengthened the 'Keep computer awake' feature (now prevents display, idle, disk and system sleep). ETA and hard-cancel kept."
+  "releaseNotes": "New 'Matching sensitivity' setting (Normal / High / Max) — turn it up to dig matches out of noisy, music-heavy, quiet or very short clips. Normal stays exactly as the proven stable matching; High/Max lower the thresholds and trust the noise-robust fingerprint method. Short clips now need proportionally fewer fingerprint votes by default."
 }
