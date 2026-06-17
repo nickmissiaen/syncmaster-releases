@@ -1,5 +1,5 @@
 {
-  "version": "0.33",
+  "version": "0.34",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "Smarter matching: weak matches are auto-retried (incl. cross-camera) before the sync finishes, and anything still weak/unmatched is parked at the end in chronological order instead of being placed wrong. Silent clips (no audio) are skipped. Exact-duplicate clips (same content, different filename) sync once; copies parked. Live estimated time remaining during sync. New setting 'Keep computer awake while syncing' (on by default). Proxy toggle moved back to Settings."
+  "releaseNotes": "Reverted the v0.33 weak-match retry + parking changes that made syncing slower and less reliable — matching is back to the proven stable behaviour. Strengthened the 'Keep computer awake' feature (now prevents display, idle, disk and system sleep). ETA and hard-cancel kept."
 }
