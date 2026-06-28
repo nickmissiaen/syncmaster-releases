@@ -1,5 +1,5 @@
 {
-  "version": "0.37",
+  "version": "0.38",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "CRITICAL FIX: never split linked audio from video again. A linked A/V clip is now treated as one clip (the audio stays attached and moves with the picture) — fixes audio being torn off and clips landing across other tracks. Assigned colour now auto-matches the clips you select on the timeline (still overridable). Onboarding updated for the ALL RUSH workflow."
+  "releaseNotes": "Fixed: linked audio is never torn off the picture again — including merged dual-system clips (camera MP4 + separate wireless WAV), now detected by matching timeline range. New in-app changelog under Settings → What's new. Update notifications now show a clean bulleted list instead of a text block."
 }
