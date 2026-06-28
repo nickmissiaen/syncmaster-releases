@@ -1,5 +1,5 @@
 {
-  "version": "0.36",
+  "version": "0.37",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "Audio-only sources can now be synced (select audio OR video clips — a source is a source); audio sources land on their own audio tracks. Panel now auto-checks for updates every time it opens. Matching sensitivity High/Max now adds a second onset-based (spectral-flux) detection method to dig matches out of music/noise-heavy audio (Normal unchanged). Voice-note mic: added CEF media flags + clearer macOS permission guidance. 'by Nick M' credit moved to the bottom of Settings."
+  "releaseNotes": "CRITICAL FIX: never split linked audio from video again. A linked A/V clip is now treated as one clip (the audio stays attached and moves with the picture) — fixes audio being torn off and clips landing across other tracks. Assigned colour now auto-matches the clips you select on the timeline (still overridable). Onboarding updated for the ALL RUSH workflow."
 }
