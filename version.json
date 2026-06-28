@@ -1,5 +1,5 @@
 {
-  "version": "0.38",
+  "version": "0.39",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "Fixed: linked audio is never torn off the picture again — including merged dual-system clips (camera MP4 + separate wireless WAV), now detected by matching timeline range. New in-app changelog under Settings → What's new. Update notifications now show a clean bulleted list instead of a text block."
+  "releaseNotes": "Audio sources now always get their own track and keep their exact sync position — never shifted in time, never stacked onto another clip's track. Overlapping audio clips spill onto a new lane instead of being pushed off-sync (this is what was pulling some audio away from its picture)."
 }
