@@ -1,5 +1,5 @@
 {
-  "version": "0.39",
+  "version": "0.40",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "Audio sources now always get their own track and keep their exact sync position — never shifted in time, never stacked onto another clip's track. Overlapping audio clips spill onto a new lane instead of being pushed off-sync (this is what was pulling some audio away from its picture)."
+  "releaseNotes": "Standalone audio clips now always get a fresh audio track, even when they do not overlap in time. This prevents audio sources from sharing lanes or interfering with each other."
 }
