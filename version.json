@@ -1,5 +1,5 @@
 {
-  "version": "0.40",
+  "version": "0.41",
   "downloadUrl": "https://github.com/nickmissiaen/syncmaster-releases/raw/main/SyncMaster-latest.zxp",
-  "releaseNotes": "Standalone audio clips now always get a fresh audio track, even when they do not overlap in time. This prevents audio sources from sharing lanes or interfering with each other."
+  "releaseNotes": "Each selected source now stays on exactly one output track after sync. The color picker auto-adopts the label color from the selected Premiere clips. Update install guidance now recommends the free aescripts ZXP Installer."
 }
